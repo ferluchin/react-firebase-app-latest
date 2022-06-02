@@ -5,9 +5,11 @@ import Login from './components/Login'
 import Register from './components/Register'
 import { AuthProvider } from './context/authContext'
 
+
+
 function App() {
     return (
-        <div className="bg-slate-300 h-screen text-white flex">
+        <div className="bg-slate-300 h-screen  flex">
             <AuthProvider>
 
                 <Routes>
@@ -29,5 +31,5 @@ crear archivo
 .env.local 
 
 BROWSER = None
-
+    
 */
